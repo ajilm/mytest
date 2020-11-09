@@ -18,7 +18,7 @@ function wc_plugin_activate(){
 
     // Require post type
     if ( post_type_exists( 'post' ) == 'false') {
-        // Stop activation redirect and show error
+        // Stop activation, redirect and show error
         wp_die('Sorry, but the post type should be active');
     }
 }
