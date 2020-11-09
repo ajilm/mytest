@@ -11,3 +11,4 @@ Custom built plugin by Ajil
 category=Category Name 
 limit=   post limit 
 orderby= ASC/DESC
+orderby= title/date
