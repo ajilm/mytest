@@ -56,8 +56,8 @@ function post_list( $atts ) {
         wp_reset_postdata(); ?>
     </ul>
  <?php
- $myvariable = ob_get_clean();
- return $myvariable;
+ $result = ob_get_clean();
+ return $result;
  }
 }
 ?>
